@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Creepster|Open+Sans:300);
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+* {
+  font-family: "Open Sans", sans-serif; }
+
+body {
+  background: #F47B26;
+  margin: 0;
+  padding: 3rem; }
+
+.wrapper {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 3rem; }
+  .wrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+#header img.logo {
+  height: 6rem;
+  display: block;
+  margin: 0 auto; }
+
+#header h1 {
+  font-family: "Creepster", sans-serif;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: white;
+  font-size: 3rem; }
+
+#header p {
+  color: white;
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 2; }
+
+#feed ul {
+  padding-left: 0;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #feed ul:last-child {
+    margin-right: 0; }
+  #feed ul li {
+    list-style-type: none;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin-bottom: 2.25%; }
+    #feed ul li:last-child {
+      margin-right: 0; }
+    #feed ul li:nth-child(3n) {
+      margin-right: 0; }
+    #feed ul li:nth-child(3n+1) {
+      clear: left; }
+    #feed ul li a img {
+      width: 100%; }
+    #feed ul li:nth-child(n+7) {
+      display: none; }
+      #feed ul li:nth-child(n+7).active {
+        display: block; }
+
+#feed .more {
+  text-align: center;
+  color: #DE5200;
+  font-family: "Creepster", sans-serif;
+  font-size: 1.5em; }
+
+#notice {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center; }
+  #notice:last-child {
+    margin-right: 0; }
+  #notice * {
+    color: white; }
+
+#footer img {
+  margin: 0 auto;
+  display: block;
+  margin-top: 6rem; }
+
+@media screen and (max-width: 550px) {
+  body {
+    padding: 1.5rem; }
+  .wrapper {
+    padding: 0; }
+  #header h1 {
+    font-size: 1.5em;
+    margin-top: 2rem; }
+  #header p {
+    font-size: 0.8em; }
+  #feed ul li {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    #feed ul li:nth-child(3n) {
+      margin-right: 2.35765%; }
+    #feed ul li:nth-child(3n+1) {
+      clear: none; }
+    #feed ul li:last-child {
+      margin-right: 0; }
+    #feed ul li:nth-child(2n) {
+      margin-right: 0; }
+    #feed ul li:nth-child(2n+1) {
+      clear: left; }
+  #notice {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+  #footer img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1.5rem; }
+  .halloweenBat {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important; } }
+
+ /*# sourceMappingURL=main.css.map */
