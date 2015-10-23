@@ -1,6 +1,6 @@
 var feed = new Instafeed({
     get: 'tagged',
-    tagName: 'megturney',
+    tagName: 'jointherebellion',
     clientId: '0fbcd4c4a9114d3ab6e301c32c932864',
     template: '<li><a href="{{link}}" target="_blank"><img src="{{image}}"></a></li>'
 });
