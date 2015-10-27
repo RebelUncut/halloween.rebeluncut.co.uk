@@ -2,7 +2,8 @@ var feed = new Instafeed({
     get: 'tagged',
     tagName: 'rebelsunleashed',
     clientId: '0fbcd4c4a9114d3ab6e301c32c932864',
-    template: '<li><a href="{{link}}" target="_blank"><img src="{{image}}"></a></li>'
+    template: '<li><a href="{{link}}" target="_blank"><img src="{{image}}"></a></li>',
+    resolution: 'standard_resolution'
 });
 feed.run();
 
@@ -17,11 +18,10 @@ $(document).ready(function() {
 		$("ul#instafeed li").addClass("active");
 		$(this).hide();
 	});
-});
 
-$(document).ready(function() {
     checkSize();
     $(window).resize(checkSize);
+
 });
 
 $.fn.halloweenBats({
